@@ -181,11 +181,20 @@ img {
     line-height: normal;
     border-radius: 8px;
     background: var(--gris-claro, #F5F5F5);
-    padding: 24px 16px;
+    /*padding: 24px 16px;*/
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.busca__categoria__card--contenido {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: var(--grafito, #222); /* Sobrescribe el color predeterminado del enlace */
+}
+
+.busca__categoria__card--contenido:visited {
+    color: var(--grafito, #222); /* Asegura que el color no cambie después de haber sido visitado */
 }
 
 span.material-symbols-outlined {
